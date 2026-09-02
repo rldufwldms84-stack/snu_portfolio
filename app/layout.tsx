@@ -1,0 +1,4 @@
+import type { Metadata } from 'next';
+import './globals.css';
+export const metadata: Metadata = {title:'Jieun Kim — Digital Trade & Data Governance',description:'Portfolio of Jieun Kim, researcher in WTO digital trade regulation, GATS, and data governance.',keywords:['Jieun Kim','digital trade','data governance','WTO','GATS','international trade law','Seoul National University'],openGraph:{title:'Jieun Kim — Digital Trade & Data Governance',description:'Research portfolio on WTO digital trade regulation, GATS, and data governance.',images:['/og.png']},twitter:{card:'summary_large_image',title:'Jieun Kim — Digital Trade & Data Governance',description:'Research portfolio on WTO digital trade regulation, GATS, and data governance.',images:['/og.png']}};
+export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body>{children}</body></html>;}
